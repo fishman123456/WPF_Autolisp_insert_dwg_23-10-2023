@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Autolisp_insert_dwg_23-10-2023", "WPF_Autolisp_insert_dwg_23-10-2023.csproj", "{C389B381-1A81-47AA-9758-A4170A028649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C389B381-1A81-47AA-9758-A4170A028649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C389B381-1A81-47AA-9758-A4170A028649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C389B381-1A81-47AA-9758-A4170A028649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C389B381-1A81-47AA-9758-A4170A028649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7468778B-121A-4DAB-A1F9-A0E8C5522644}
+	EndGlobalSection
+EndGlobal

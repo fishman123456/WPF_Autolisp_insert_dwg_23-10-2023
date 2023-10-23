@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MmwYmjYwc87VeBbUUisHTby10svHuKE9ORC+mME+2A74YphPTCQiuvsMtTJQwb6j+mD8VSOqkqyXPVCo8V9I5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fishman.DB.CORP\\Documents\\GitHub\\WPF_Autolisp_insert_dwg_23-10-2023\\WPF_Autolisp_insert_dwg_23-10-2023.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fishman.DB.CORP\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}
