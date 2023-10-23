@@ -17,6 +17,7 @@ namespace WPF_Autolisp_insert_dwg_23_10_2023
     // строка для записи в файл
     {
         static string file_block_ins_str = null;
+        static string file_block_ins_str_one = null;
         static string file_block_ins_str_two = null;
         static string file_block_ins_str_three = null;
         public static void CheckDate()
@@ -44,13 +45,17 @@ namespace WPF_Autolisp_insert_dwg_23_10_2023
         {
             file_block_ins_str += "\n (defun C: u_83( / dic edic)\n";
             file_block_ins_str += "(vl - load - com)\n";
-            file_block_ins_str += "(command \"_ - INSERT\"\n";
-            file_block_ins_str += ";c:\\Program Files\\AutoCAD 2009\\AcadLsp\\St_prof\\Block\\001.dwg - пример\n";
-            file_block_ins_str += "F:\\Проекты\\_Чегдомын отделение флотации Главный корпус\\ГЛАВНЫЙ КОРПУС\\ТХ - 6 листы в модели\\Л.\n";   
             return file_block_ins_str;
         }
+        // первую и вторую надо зациклить по кол-ву чисел в текстбоксе
+        public static string file_block_ins_one()
+        {
+            file_block_ins_str_one += "(command \"_ - INSERT\"\n";
+            file_block_ins_str_one += ";c:\\Program Files\\AutoCAD 2009\\AcadLsp\\St_prof\\Block\\001.dwg - пример\n";
+            file_block_ins_str_one += "F:\\Проекты\\_Чегдомын отделение флотации Главный корпус\\ГЛАВНЫЙ КОРПУС\\ТХ - 6 листы в модели\\Л.\n";
+            return file_block_ins_str_one;
+        }
         public static string file_block_ins_two()
-
         {
             file_block_ins_str_two += "_La.dwg\n";
             file_block_ins_str_two += @"(getpoint)\n";
@@ -58,11 +63,15 @@ namespace WPF_Autolisp_insert_dwg_23_10_2023
             file_block_ins_str_two += "\"1\"; масштаб по оси Y\n";
             file_block_ins_str_two += "\"0\"; угол поворота\n";
             file_block_ins_str_two += ")\n";
-            file_block_ins_str_two += "(princ)\n";
-            file_block_ins_str_two += ")\n";
+            
             return file_block_ins_str_two;
         }
-    }
+        public static string file_block_ins_three()
+        {
+            file_block_ins_str_two += "(princ)\n";
+            file_block_ins_str_two += ")\n";
+            return file_block_ins_str_three;
+        }
 
 
 }
