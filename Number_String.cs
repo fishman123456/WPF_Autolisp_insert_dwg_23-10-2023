@@ -51,7 +51,7 @@ namespace WPF_Autolisp_insert_dwg_23_10_2023
         public static string file_block_ins_one()
         {
             file_block_ins_str_one += "(command \"_ - INSERT\"\n";
-            file_block_ins_str_one += ";c:\\Program Files\\AutoCAD 2009\\AcadLsp\\St_prof\\Block\\001.dwg - пример\n";
+            file_block_ins_str_one += @";c:\\Program Files\\AutoCAD 2009\\AcadLsp\\St_prof\\Block\\001.dwg - пример\n";
             file_block_ins_str_one += "F:\\Проекты\\_Чегдомын отделение флотации Главный корпус\\ГЛАВНЫЙ КОРПУС\\ТХ - 6 листы в модели\\Л.\n";
             return file_block_ins_str_one;
         }
@@ -63,7 +63,7 @@ namespace WPF_Autolisp_insert_dwg_23_10_2023
             file_block_ins_str_two += "\"1\"; масштаб по оси Y\n";
             file_block_ins_str_two += "\"0\"; угол поворота\n";
             file_block_ins_str_two += ")\n";
-            
+
             return file_block_ins_str_two;
         }
         public static string file_block_ins_three()
@@ -72,6 +72,6 @@ namespace WPF_Autolisp_insert_dwg_23_10_2023
             file_block_ins_str_two += ")\n";
             return file_block_ins_str_three;
         }
-
+    }
 
 }
