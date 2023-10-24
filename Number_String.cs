@@ -48,7 +48,7 @@ namespace WPF_Autolisp_insert_dwg_23_10_2023
             file_block_ins_str_one = "";
             file_block_ins_str_one += "(command \"_.xref\" \"\" \"";
             // строка для поиска файлов для ссылок 24-10-2023
-            file_block_ins_str_one += @"F:\\Проекты\\_Чегдомын отделение флотации Главный корпус\\ГЛАВНЫЙ КОРПУС\\ТХ-6 листы в модели\\";
+            file_block_ins_str_one += @"F:\\Проекты\\_Чегдомын отделение флотации Главный корпус\\ГЛАВНЫЙ КОРПУС\\ТХ-5 листы в модели\\";
             return file_block_ins_str_one;
         }
         // для справки
